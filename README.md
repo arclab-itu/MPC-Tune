@@ -1,2 +1,2 @@
-# MPC-WT
-Weight tuning for MPC cost function based on Monte-Carlo Expectation Maximisation
+# MPC-Tune
+Weight tuning for MPC cost functions using Monte-Carlo Expectation Maximization (MCEM)
