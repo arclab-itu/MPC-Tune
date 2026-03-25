@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from shapely.geometry import LineString
-from immitation_gen.mpc.traffic.mpc import MPC
-from immitation_gen.mpc.traffic.mpc_config import default_vehicle_constants as vehicle_constants
-from immitation_gen.mpc.traffic.dynamics import rk4
+from mpc.traffic.mpc import MPC
+from mpc.traffic.mpc_config import default_vehicle_constants as vehicle_constants
+from mpc.traffic.dynamics import rk4
 import casadi as ca
 
 class SimpleVehicle:

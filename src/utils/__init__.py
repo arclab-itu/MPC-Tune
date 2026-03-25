@@ -1,4 +1,4 @@
-"""Utility plotting helpers for immitation_gen project."""
+"""Utility plotting helpers for MPC-Tune project."""
 
 __all__ = [
     "draw",

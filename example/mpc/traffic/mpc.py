@@ -2,10 +2,9 @@ from __future__ import annotations
 
 import casadi as ca
 import numpy as np
-import logging
 
-from immitation_gen.mpc.traffic.mpc_config import mpc_constants, default_vehicle_constants as vehicle_constants
-from immitation_gen.mpc.traffic.dynamics import *
+from mpc.traffic.mpc_config import mpc_constants, default_vehicle_constants as vehicle_constants
+from mpc.traffic.dynamics import *
 
 class MPC:
     def __init__(self, timestep: float, weights):

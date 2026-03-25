@@ -2,8 +2,8 @@ from __future__ import annotations
 import numpy as np
 from shapely.geometry import LineString, Point
 
-from immitation_gen.mpc.traffic.mpc_config import default_vehicle_constants as vehicle_constants
-from immitation_gen.mpc.traffic.mpc_config import mpc_constants
+from mpc.traffic.mpc_config import default_vehicle_constants as vehicle_constants
+from mpc.traffic.mpc_config import mpc_constants
 
 import casadi as ca
 
