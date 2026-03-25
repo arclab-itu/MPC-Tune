@@ -77,7 +77,6 @@ The `self.policy` instance (a `Policy` object) provides `sample()`, `update()`, 
 ---
 
 ## Setup 
-`Example: Driving Imitation`
 
 **1. Clone the repository**
 
@@ -110,7 +109,7 @@ pip install -e .
 This registers `policy` and `utils` as local packages so all imports resolve correctly without modifying `PYTHONPATH`.
 
 **5. Run experiments**
-
+`Example: Driving Imitation`
 Both output folders must exist before running:
 
 ```bash
